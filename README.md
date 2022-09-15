@@ -30,8 +30,29 @@ cd server
 python server.py
 ```
 
+- You should see the following output in your terminal (server).
+```console
+Server listening on port 6900
+```
+
 - Open a separate terminal window and go to Assignment 1 folder. Enter the client folder.
 ```
 cd client
 python client.py
+```
+
+- The connection between the client and server would have been established by now. You should see the following output in your terminal (client).
+```console
+Received the following from server:
+  The following commands are supported:
+    1. CWD - Retrieve the path of the current working directory for the user
+    2. LS - List the files/folders present in the current working directory
+    3. CD <dir> - Change the directory to <dir> as specified by the client
+    4. DWD <file> - Download the <file> specified by the user on server to client
+    5. UPD <file> - Upload the <file> on client to the remote server in CWD
+
+The following encryption modes are available:
+  1 - Plain Text
+  2 - Substitute
+  3 - Transpose
 ```
