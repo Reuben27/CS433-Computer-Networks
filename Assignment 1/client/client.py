@@ -16,14 +16,14 @@ print('''The following encryption modes are available:
   3 - Transpose
 ''')
 
+command = input('Enter command: ').strip()
+
 while True:
   mode = input('Enter mode of encryption: ').strip()
   if(int(mode) >= 1 and int(mode) <=3):
     break
   else:
     print("Mode of encryption not available. Try again!")
-
-command = input('Enter command: ').strip()
 
 if(command.split(' ')[0] == "UPD" or command.split(' ')[0] == "upd"):
   try:
