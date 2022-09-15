@@ -56,3 +56,18 @@ The following encryption modes are available:
   2 - Substitute
   3 - Transpose
 ```
+
+- The client will then ask for the command and the mode of encryption. 
+```console
+Enter command: CWD
+Enter mode of encryption: 3
+```
+
+- The client will send the request to the server and the response from the server will be displayed on the terminal. The response is the current working directory of the server.
+```console
+Status from the server:
+ OK
+Response from the server:
+ E:\IITGn Academics\Semester VII\CS 433 - Computer Networks\CS433-Computer-Networks\Assignment 1\server
+Connection Closed
+```
