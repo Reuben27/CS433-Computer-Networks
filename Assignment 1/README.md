@@ -1,10 +1,10 @@
-# CS433 Computer Networks
+# CS433 Computer Networks Assignment 1
 
-## Assignment 1
+## Network Application using Socket Programming
+The goal was to develop a simple remote file system service (RFS) and understand the principles of layered network architecture. 
 
-### Network Application using Socket Programming
-
-The goal was to develop a simple remote file system service (RFS) and understand the principles of layered network architecture. Following are the steps to compile and execute the code:
+### Quickstart
+Following are the steps to compile and execute the code:
 
 - You must have [Python](https://www.python.org/) and pip installed on your laptop/desktop. Run the following commands to check the whether you have them installed or not.
 ```
@@ -71,3 +71,5 @@ Response from the server:
  E:\IITGn Academics\Semester VII\CS 433 - Computer Networks\CS433-Computer-Networks\Assignment 1\server
 Connection Closed
 ```
+
+### Screenshots
