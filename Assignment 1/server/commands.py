@@ -38,8 +38,8 @@ def commands(mode, encrypted_command):
 
   elif (command.split(' ')[0] == "dwd" or command.split(' ')[0] == "DWD"):
     try:
-      path = command[4:]
-      f = open(path, 'r')
+      path = command[4:].strip()
+      f = open(os.path.join(os.curdir, path), 'r')
       response = f.read(2048)
       f.close()
       status = "OK"

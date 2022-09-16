@@ -52,6 +52,7 @@ if(command.split(' ')[0] == "DWD" or command.split(' ')[0] == "dwd"):
       f = open('downloaded_file.txt', 'w')
       f.write(response)
       f.close()
+      response = "File has been downloaded successfully."
     except:
       response = "Error in writing to file!"
       status = "NOK"
