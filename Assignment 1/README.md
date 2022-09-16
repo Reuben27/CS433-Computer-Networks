@@ -71,5 +71,3 @@ Response from the server:
  E:\IITGn Academics\Semester VII\CS 433 - Computer Networks\CS433-Computer-Networks\Assignment 1\server
 Connection Closed
 ```
-
-### Screenshots
