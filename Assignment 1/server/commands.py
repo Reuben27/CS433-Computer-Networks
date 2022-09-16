@@ -23,7 +23,7 @@ def commands(mode, encrypted_command):
     response = "Directory List: \n"
     for i in os.listdir():
       response += i + "\n"
-    status = "NOK"
+    status = "OK"
 
   elif (command.split(' ')[0] == "cd" or command.split(' ')[0] == "CD"):
     try:
