@@ -32,4 +32,4 @@ Network Application using Socket Programming. The goal was to develop a simple r
 
 ## Assignment 2
 
-Implementing a Mininet network. The goal was to implement a custom topology using Mininet APIs. Go to [Assignment 2 folder](https://github.com/Reuben27/CS433-Computer-Networks/tree/main/Assignment%201#cs433-computer-networks-assignment-2) for the code.
+Implementing a Mininet network. The goal was to implement a custom topology using Mininet APIs. Go to [Assignment 2 folder](https://github.com/Reuben27/CS433-Computer-Networks/tree/main/Assignment%202#cs433-computer-networks-assignment-2) for the code.
