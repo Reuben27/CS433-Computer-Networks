@@ -4,6 +4,7 @@ This repository contains the source code for all assignments of the Computer Net
 ## Table of Contents
 - [Quickstart](https://github.com/Reuben27/CS433-Computer-Networks#quickstart)
 - [Assignment 1](https://github.com/Reuben27/CS433-Computer-Networks#assignment-1)
+- [Assignment 2](https://github.com/Reuben27/CS433-Computer-Networks#assignment-2)
 
 ## Quickstart
 To set up the environment to run the assignment codes follow the below steps:
@@ -28,3 +29,7 @@ git branch
 ## Assignment 1
 
 Network Application using Socket Programming. The goal was to develop a simple remote file system service (RFS) and understand the principles of layered network architecture. Go to [Assignment 1 folder](https://github.com/Reuben27/CS433-Computer-Networks/tree/main/Assignment%201#cs433-computer-networks-assignment-1) and see the Readme for detailed docs.
+
+## Assignment 2
+
+Implementing a Mininet network. The goal was to implement a custom topology using Mininet APIs. Go to [Assignment 2 folder](https://github.com/Reuben27/CS433-Computer-Networks/tree/main/Assignment%201#cs433-computer-networks-assignment-2) for the code.
